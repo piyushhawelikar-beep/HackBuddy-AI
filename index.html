@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HackBuddy AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HackBuddy AI 🤖</h1>
+        <p class="subtitle">Your personal hackathon copilot powered by Google Gemini API</p>
+
+        <textarea id="prompt" placeholder="Example: Generate a hackathon-winning idea using Gemini"></textarea>
+        <button onclick="generate()">Generate with Gemini</button>
+
+        <div class="output-box">
+            <h3>AI Output</h3>
+            <pre id="output">Waiting for Gemini...</pre>
+        </div>
+
+        <footer>Powered by Google Gemini API</footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

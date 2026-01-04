@@ -1,0 +1,60 @@
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #020617;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(59,130,246,0.3);
+}
+h1 {
+    text-align: center;
+    color: #38bdf8;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #94a3b8;
+}
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.output-box {
+    margin-top: 25px;
+    background: #020617;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+    max-height: 300px;       /* max height set karo */
+    overflow-y: auto;        /* scroll if content exceeds */
+    white-space: pre-wrap;   /* line wrap */
+    word-wrap: break-word;   /* long words break */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #64748b;
+}
